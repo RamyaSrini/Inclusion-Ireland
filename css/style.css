@@ -104,18 +104,24 @@
 	
 }
 
-/* Add a gray background color and some padding to the footer */
-footer {
-	
-	width: 100%;
-	position: absolute;
-    background-color: #f2f2f2;
+footer 
+{
+    width: 100%;
+    position: absolute;
+    border-top:1px solid #D3D3D3;
     /* padding: 25px; */
 
     /* position: absolute;
     bottom: 0;
     /* Set the fixed height of the footer here */
     /* height: 120px; */
+}
+
+.footerCol
+{
+    float: left;
+    width: 25%;
+    padding: 5px;
 }
 
 .secondLayerFooter {
